@@ -1,0 +1,47 @@
+body {
+  /* background: #007bff; */
+  background: linear-gradient(to right, #6a0a80, #ff3b3b);
+}
+
+.card-img-left {
+  width: 45%;
+  /* Link to your background image using in the property below! */
+  background: scroll center url('amikom.jpg');
+  background-size: cover;
+}
+
+.tombol-nim a {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  padding: 0.75rem 1rem;
+  background-color: rgb(123, 62, 185);
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 7px;
+}
+
+.tombol-google a {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  padding: 0.75rem 1rem;
+  background-color: rgb(40, 103, 229);
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 7px;
+}
+
+body {
+  margin-top: 120px;
+}
+
+.tombol-nim a:hover {
+  background-color: #6a0a80;
+  color: white;
+}
+
+.tombol-google a:hover {
+  background-color: #31428e;
+  color: white;
+}
